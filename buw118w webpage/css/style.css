@@ -1,0 +1,132 @@
+*{ margin:0px; padding:0;}
+body{ font:14px/180% Arial,"",Helvetica, sans-serif,Verdana; color:#444; margin:0; text-align:left; background:#ddf6fb;}
+a{blr:expression(this.onFocus=this.blur())} 
+a{outline:none;} /*background*/
+A:link{text-decoration:none; color:#444;}
+A:visited{text-decoration:none; color:#444;}
+A:hover{text-decoration:underline; color:#ff5d1d;}
+#blue_font,#blue_font a,#blue_font a:visited{ color:#ff5d1d;}
+img{ border:0; }
+.line{ width:100%; height:5px; background:#014075;}
+ol,ul,li{list-style-type:none;}
+.imr{ margin:0 10px; vertical-align:middle;} /*tabs*/
+
+/*tabs*/
+#top{ width:940px; margin:0 auto; height:142px;text-align:left; background:url(../images/head.jpg) no-repeat top center;}
+#header{ margin:0 auto; width:940px; height:340px;background:url(banner.jpg) no-repeat;}
+#mainmain{width:100%;margin:0px auto; }
+.about h4{ width:600px; height:30px; line-height:30px; text-align:center; font-size:16px;}
+.about ul{ padding:40px 0 150px 0;}
+.about ul li{ font-size:14px; height:30px; line-height:30px;  list-style-type:square; margin:0 0 0 40px;}
+
+/*tabs ul li*/
+#nav1{margin:0 auto; padding:0 0 0 50px;}
+#nav1 ul li{ float:left; margin:0 0 0 20px;}
+#nav1 ul .select{ background:#00386b;}
+#nav1 ul li a{ color:#fff; font-size:14px; height:40px; line-height:40px; display:block; text-align:center; padding:0 10px 0 10px;}
+
+#nav{margin:0 auto; padding:93px 0 0 50px;}
+#nav ul li{ float:left; margin:0 0 0 20px;}
+#nav ul .select{ background:#00386b;}
+#nav ul li a{ color:#fff; font-size:14px; height:40px; line-height:40px; display:block; text-align:center; padding:0 10px 0 10px;}
+.pic{ width:930px; height:231px; float:left; margin:5px 0 0 10px; background:url(../images/sh-bg.jpg) no-repeat;}
+.pic dl{ width:211px; height:190px; float:left; margin:18px 0 0 11px;}
+.pic dl dt{ width:211; height:166px; border:1px solid #999999; padding:1px; overflow:hidden;}
+.pic dl dt a img{ width:209px; height:164px;}
+.pic dl dd{ width:211px; height:25px; line-height:25px; text-align:center;}
+.pic dl dd a{ font-size:14px; color:#333333;}
+.staff { float:left; width:940px; margin:10px 0 0 0; position:relative;}
+.staff dl{ width:308px; height:400px; background:url(../images/pbg.jpg) no-repeat; float:left; margin:0 0 0 5px;}
+.staff dl dt{ width:250px; height:192px; overflow:hidden; padding:20px 0 0 28px;}
+.staff dl dd { text-align:left; padding:20px; font-size:14px;font-style:;}
+.staff dl dd a{ width:290px; height:100px;  display:block; text-align:left;}
+#p1,#p2,#p3,#sq1,#sq2,#sq3{ display:none;}
+#p1,#p2,#p3{ background:#01b8e2; width:240px; height:120px; padding:10px 0 0 50px; position:absolute;}
+#p1{ left:10px; top:50px;}
+#p2{ left:320px; top:50px;}
+#p3{ left:640px; top:50px;}
+#p1 p,#p2 p,#p3 p{ width:100px; height:30px; line-height:30px;}
+
+/*content*/
+.main{ width:950px; height:auto; margin:0 auto;}
+.main .huren{ margin:10px 0 0 10px; float:left; background:url(../images/picbg.jpg) no-repeat; width:923px; height:500px;}
+.main .huren dl dt{ width:300px; height:385px; float:left; margin:15px 0 0 15px;}
+.main .huren dl dt img{ width:270px; height:355px;}
+.main .huren dl dd{ width:570px; height:330px; float:left; margin:15px 0 0 10px; text-align:left; font-size:14px; line-height:24px; text-indent:24px;}
+
+/*tutoring*/
+.jslb dl{ border-bottom:1px dashed #829dd4; width:910px; height:181px; margin:20px 0 0 10px;}
+.jslb dl dt a img {width:149px; height:152px;}
+.jslb dl dt{ width:151px; height:154px; border:1px solid #c8c8c8; padding:1px 0 0 1px; float:left;}
+.jslb dl dd{ width:735px; float:left; margin:0 0 0 10px; }
+.jslb dl dd h3{ width:735px; height:30px; line-height:30px; font: size 18;px; color:#ca7c00; padding:0 0 0 20px;}
+.jslb dl dd h3 a{color:#ca7c00; font: size 18;px;}
+.jslb dl dd span{ padding:0 0 0 20px; color:red;}
+
+/*testday*/
+.jslb dl dd p{ font: size 16;px; line-height:22px; text-indent:22px; color:#636363;}
+.jslb dl dd p a{ color:#FF0000;}
+.test p{ font: size 16;px; padding:20px; line-height:30px; text-indent:24px;}
+.test h3{ padding:0 0 0 40px; font-size:24px;}
+.test { padding:0 0 0 30px;}
+.test ul{ padding:0 0 0 30px;}
+.test ul li{ list-style:inside; padding:0 0 0 0; font-size:14px; line-height:35px; }
+
+/*about us*/
+.jtc{ width:444px; height:472px; float:left; background:url(../images/tcj.jpg) no-repeat; margin:0 0 0 1px; overflow:hidden;}
+.jtc h3{ width:408px; height:36px; line-height:36px; padding:0 0 0 10px; color:#000; font-size:16px; text-align: center;}
+.jtc h3 a{ color:#000;}
+.jtc dl {margin:10px 0 0 10px;}
+.jtc dl dt{ width:403px; height:321px; border:1px solid #999999; padding:1px 0 0 1px; margin:15px 0 0 20px;}
+.jtc dl dt img{ width:402px; height:321px;}
+.jtc dl dd{ width:430px; margin:7px 0 0 10px; height:32px; line-height:32px; text-indent:32px; font-size:14px;}
+.jtc dl dd a{ color:#FF0000;}
+#main_con{width:940px; margin:0 auto;  background:#FFF; _margin-top:-4px; *margin-top:-4px;}
+#use{width:940px; margin:0 auto;   background:#FFF; overflow:hidden; margin-bottom:5px;}
+.about dl{ width:440px; float:left; margin:10px 0 0 0;height:450px;}
+.about dl dt{ width:200px;height:auto; float:left;}
+.about dl dt img{ width:200px;height:auto; float:left;}
+.about dl dd{ width:230px;height:auto; float:left; margin:0 0 0 10px;}
+.map dl dd{ width:300px; float:left; padding:30px 0 0 30px; line-height:40px;}
+.map dl dt{ width:300px; float:left; margin:0 0 0 30px;}
+.map{ float:left;}
+
+/*faq info*/
+.form dl dd{ width:300px; float:left; padding:30px 0 0 30px; line-height:40px;}
+.form dl dt{ width:300px; float:left; margin:30px 0 0 60px;}
+.form{ float:left;}
+.form input.wbsr{ height:30px;}
+
+/*banners*/
+.banner{ width:930px; margin:0 auto;}
+.wap { width:930px;min-height:600px; background:#fff; height:auto;}
+.clear{ clear:both;}
+.left{ width:276px; height:500px; float:left;}
+.right{ float:left; margin:0 0 0 15px; background:#fff; width:640px;}
+
+/*footer space*/
+.boss{width:650px; height:500px; margin:10px 0 0 0; }
+.boss dl{ width:650px; height:220px; float:left; margin:0 0 0 40px;}
+.boss dl dt{ width:270px; height:200px; float:left;}
+.boss dl dt img{ width:270px; height:200px;}
+.boss dl dd{ width:330px;  text-align:left; float:left; margin:0 0 0 20px; text-indent:24px;}
+.boss p{ text-align:left; text-indent:24px; margin:0 0 0 10px;} 
+.kong{ width:940px; height:30px; margin:0 auto; float:left;}
+
+.time{ font-size:24px; height:93px; line-height:93px; padding:0 0 0 250px;}
+.time font {color:#09F;}
+
+
+#footer{ clear:both;width:940px;  text-align:center; padding:15px 0 15px 0; margin:0 auto; color:#fff; background:#01b8e2; height:80px;}
+#footer p{ width:800px; height:24px; line-height:24px; text-align:center; font-size:14px; padding:0 0 0 80px;}
+
+
+
+
+
+
+
+
+
+
+
